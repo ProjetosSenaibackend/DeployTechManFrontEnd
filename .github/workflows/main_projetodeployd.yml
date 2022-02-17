@@ -53,4 +53,4 @@ jobs:
           app-name: 'ProjetoDeployd'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_179D6301F9B149DFA3179002A97D09B5 }}
-          package: .
+          package: "build"
